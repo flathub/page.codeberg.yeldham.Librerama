@@ -25,25 +25,21 @@ modules:
           - /app/bin/godot-runner --main-pack /app/bin/librerama.pck
 
       - type: file
-        url: https://codeberg.org/attachments/abcb93d6-ff79-4185-bc36-423758970b0d
-        sha256: 7bd3df7587c7dcd2c7af1e13756f511268d85a045495189e4d6bf221fb5c6d57
+        url: https://codeberg.org/attachments/fe130767-ca9f-4701-9bb9-9d2211fb2ba5
+        sha256: 5bea00fbe9d49abbf5f6be25663de0493dee684309f8833d4cb975a7f9f56591
         dest-filename: "librerama.pck"
 
       - type: file
-        url: https://codeberg.org/Yeldham/librerama/raw/tag/v0.6.0/icon.svg
+        url: https://codeberg.org/Yeldham/librerama/raw/tag/v0.6.1/icon.svg
         sha256: 5665030aa2ff2e774018034b15c909a7ba4bfee1e55eb70aa067f9aa328594de
 
       - type: file
-        url: https://codeberg.org/Yeldham/librerama/raw/tag/v0.6.0/export/freedesktop/page.codeberg.yeldham.Librerama.desktop
+        url: https://codeberg.org/Yeldham/librerama/raw/tag/v0.6.1/export/freedesktop/page.codeberg.yeldham.Librerama.desktop
         sha256: 9e9a9edf713fb1fba774b486be489639b56020c57376aa6295475081a73aeefa
 
       - type: file
-        url: https://codeberg.org/Yeldham/librerama/raw/tag/v0.6.0/export/freedesktop/page.codeberg.yeldham.Librerama.appdata.xml
-        sha256: ba64568b1381f8a9967c46a354abb3952e01f06aa83bba3d692b9fc289d0d539
-
-      # Temporary. The upstream file will be fixed in the next update.
-      - type: patch
-        path: add_homepage_appdata.patch
+        url: https://codeberg.org/Yeldham/librerama/raw/tag/v0.6.1/export/freedesktop/page.codeberg.yeldham.Librerama.appdata.xml
+        sha256: 70c9b5a9f01e16edcdfadd11869b4dc301bf9a7cee2d92c73a86684b826a2d8b
 
     build-commands:
       - install -Dm755 run.sh /app/bin/librerama
