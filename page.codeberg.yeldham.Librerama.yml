@@ -41,6 +41,10 @@ modules:
         url: https://codeberg.org/Yeldham/librerama/raw/tag/v0.6.1/export/freedesktop/page.codeberg.yeldham.Librerama.appdata.xml
         sha256: 70c9b5a9f01e16edcdfadd11869b4dc301bf9a7cee2d92c73a86684b826a2d8b
 
+        # Temporary. The upstream file will be fixed in the next update.
+      - type: patch
+        path: fix_screenshot_links.patch
+
     build-commands:
       - install -Dm755 run.sh /app/bin/librerama
       - install -Dm644 librerama.pck /app/bin/librerama.pck

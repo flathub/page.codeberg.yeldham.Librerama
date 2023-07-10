@@ -1,0 +1,51 @@
+--- a/page.codeberg.yeldham.Librerama.appdata.xml	2023-07-10 10:05:55.372396826 -0300
++++ b/page.codeberg.yeldham.Librerama.appdata.xml	2023-07-10 10:09:03.158584522 -0300
+@@ -275,42 +275,42 @@
+     </recommends>
+     <screenshots>
+         <screenshot type="default" width="1024" height="600">
+-            <image type="source">https://codeberg.org/Librerama/librerama/raw/branch/master/export/screenshots/punchbag_wallop.png</image>
++            <image type="source">https://codeberg.org/Librerama/librerama/raw/tag/v0.6.1/export/screenshots/punchbag_wallop.png</image>
+             <caption>The nanogame "Punchbag Wallop"</caption>
+             <caption xml:lang="de">Das Nanospiel „Sandsackrüpel“</caption>
+             <caption xml:lang="nl">Het minispel ‘Boksbalmoes’</caption>
+             <caption xml:lang="pt_BR">O nanojogo "Saco de Pancadaria"</caption>
+         </screenshot>
+         <screenshot type="default" width="1024" height="600">
+-            <image type="source">https://codeberg.org/Librerama/librerama/raw/branch/master/export/screenshots/carnival_shootout.png</image>
++            <image type="source">https://codeberg.org/Librerama/librerama/raw/tag/v0.6.1/export/screenshots/carnival_shootout.png</image>
+             <caption>The nanogame "Carnival Shootout"</caption>
+             <caption xml:lang="de">Das Nanospiel „Kirmes-Schießbude“</caption>
+             <caption xml:lang="nl">Het minispel ‘Schiettent’</caption>
+             <caption xml:lang="pt_BR">O nanojogo "Tiro ao Alvo no Festival"</caption>
+         </screenshot>
+         <screenshot type="default" width="1024" height="600">
+-            <image type="source">https://codeberg.org/Librerama/librerama/raw/branch/master/export/screenshots/rope_hop.png</image>
++            <image type="source">https://codeberg.org/Librerama/librerama/raw/tag/v0.6.1/export/screenshots/rope_hop.png</image>
+             <caption>The nanogame "Rope Hop"</caption>
+             <caption xml:lang="de">Das Nanospiel „Seilhüpfen“</caption>
+             <caption xml:lang="nl">Het minispel ‘Touwtjespringen’</caption>
+             <caption xml:lang="pt_BR">O nanojogo "Pulo Hop"</caption>
+         </screenshot>
+         <screenshot type="default" width="1024" height="600">
+-            <image type="source">https://codeberg.org/Librerama/librerama/raw/branch/master/export/screenshots/neo_highway.png</image>
++            <image type="source">https://codeberg.org/Librerama/librerama/raw/tag/v0.6.1/export/screenshots/neo_highway.png</image>
+             <caption>The nanogame "Neo Highway"</caption>
+             <caption xml:lang="de">Das Nanospiel „Neoautobahn“</caption>
+             <caption xml:lang="nl">Het minispel ‘Neon snelweg’</caption>
+             <caption xml:lang="pt_BR">O nanojogo "Neo Rodovia"</caption>
+         </screenshot>
+         <screenshot type="default" width="1024" height="600">
+-            <image type="source">https://codeberg.org/Librerama/librerama/raw/branch/master/export/screenshots/anagogic_clock.png</image>
++            <image type="source">https://codeberg.org/Librerama/librerama/raw/tag/v0.6.1/export/screenshots/anagogic_clock.png</image>
+             <caption>The nanogame "Anagogic Clock"</caption>
+             <caption xml:lang="de">Das Nanospiel „Anagoguhr“</caption>
+             <caption xml:lang="nl">Het minispel ‘Analoge klok’</caption>
+             <caption xml:lang="pt_BR">O nanojogo "Relógio Anagógico.</caption>
+         </screenshot>
+         <screenshot type="default" width="1024" height="600">
+-            <image type="source">https://codeberg.org/Librerama/librerama/raw/branch/master/export/screenshots/void_avoider.png</image>
++            <image type="source">https://codeberg.org/Librerama/librerama/raw/tag/v0.6.1/export/screenshots/void_avoider.png</image>
+             <caption>The nanogame "Void Avoider"</caption>
+             <caption xml:lang="de">Das Nanospiel „Leerenausweicher“</caption>
+             <caption xml:lang="nl">Het minispel ‘Geen lege leegte’</caption>
