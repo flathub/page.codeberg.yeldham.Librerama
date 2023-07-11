@@ -2,7 +2,7 @@ app-id: page.codeberg.yeldham.Librerama
 base: org.godotengine.godot.BaseApp
 base-version: "3.5"
 runtime: org.freedesktop.Platform
-runtime-version: "21.08"  # Needs to match the version used by the Godot BaseApp
+runtime-version: "22.08"  # Needs to match the version used by the Godot BaseApp
 default-branch: stable
 sdk: org.freedesktop.Sdk
 command: librerama
