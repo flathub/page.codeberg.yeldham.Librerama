@@ -1,18 +1,18 @@
 app-id: page.codeberg.yeldham.Librerama
 base: org.godotengine.godot.BaseApp
-base-version: "3.5"
+base-version: "3.5-24.08"
 runtime: org.freedesktop.Platform
-runtime-version: "22.08"  # Needs to match the version used by the Godot BaseApp
+runtime-version: "24.08"  # Needs to match the version used by the Godot BaseApp.
 default-branch: stable
 sdk: org.freedesktop.Sdk
 command: librerama
 rename-icon: icon
 
 finish-args:
-  - --share=ipc  # Required for X11 support
   - --socket=x11
+  - --share=ipc  # Required for X11 performance.
   - --socket=pulseaudio
-  - --device=all  # Required for joypad support. Only requesting "dri" would be the ideal
+  - --device=all  # Required for joypad support. Only requesting "input" and "dri" would be ideal, but we need to wait for Debian to catch up.
 
 modules:
   - name: librerama
